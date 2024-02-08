@@ -22,7 +22,7 @@ export const HomeComponent = () => {
                                 <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer</p>
                             </div>
                             </div>
-                            <div className="col-md  max-w-100 text-center my-4 my-sm-0">
+                            <div className="col-md  max-w-100 text-center my-4 my-md-0">
                                 <img src='spiderman.png' className='img-fluid' style={{maxWidth: "20rem"}}  />
                             </div>
                         </div> 
