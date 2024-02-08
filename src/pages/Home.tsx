@@ -3,6 +3,8 @@ import "../css/home.modules.css";
 
 export const HomePage = () => {
     return( 
-        <HomeComponent />
+        <div className="py-5 py-md-0">
+            <HomeComponent  />
+        </div>
     )
 }
