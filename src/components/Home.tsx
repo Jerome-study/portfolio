@@ -13,7 +13,7 @@ export const HomeComponent = () => {
                             </div>
                         </div>
                         <div className="col-12 col-lg-6 max-w-100 text-center my-4 my-md-0">
-                            <img src='spiderman.png' className='img-fluid' style={{maxWidth: "20rem"}}  />
+                            <img loading="lazy" src='spiderman.png' className='img-fluid' style={{maxWidth: "20rem"}}  />
                         </div>
                     </div> 
                     <div className="mt-3">

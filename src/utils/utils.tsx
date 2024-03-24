@@ -20,14 +20,14 @@ interface ProjectProps {
 
 
 const icons = [
-    <FaHtml5  className="bg-light" color="#FF8C00" size={"1.2rem"}/>, 
-    <IoLogoCss3 className="bg-light" color='blue'  size={"1.2rem"}  />, 
-    <IoLogoJavascript className="bg-dark" color='yellow'  size={"1.2rem"}  />,
-    <FaReact color='lightblue' size={"1.2rem"}  className='loaderIcon' />,
-    <FaNode color='green' size={"1.4rem"} />,
-    <SiMongodb color='green' size={"1.2rem"} />,
-    <FaBootstrap  color='blue' size={"1.2rem"} />,
-    <SiTypescript color='blue' size={"1.2rem"}/>
+    <FaHtml5 className="bg-light" color="#FF8C00" size={"1.7rem"}/>, 
+    <IoLogoCss3 className="bg-light" color='blue'  size={"1.7rem"}  />, 
+    <IoLogoJavascript className="bg-dark" color='yellow'  size={"1.7rem"}  />,
+    <FaReact color='lightblue' size={"1.7rem"} className='loaderIcon' />,
+    <FaNode className="bg-light" color='green' size={"1.9rem"} />,
+    <SiMongodb className="bg-light" color='green' size={"1.7rem"} />,
+    <FaBootstrap className="bg-light" color='blue' size={"1.7rem"} />,
+    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>
 ];
 
 export const iconsHome = [
