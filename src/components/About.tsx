@@ -1,8 +1,10 @@
+import { svg } from "../utils/utils"
+
 export const AboutComponent = () => {
     return(
         <div className="container">
             <div className="text-center">
-                <img className="w-75" src="/spiderman.png" alt="" style={{ maxWidth: "20rem"}} />
+                <img className="w-75" src={svg} alt="" style={{ maxWidth: "20rem"}} />
             </div>
             <div className="mt-5">
                 <p className="text-italic about-me-details">

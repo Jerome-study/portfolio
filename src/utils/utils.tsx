@@ -9,6 +9,18 @@ import { ReactNode } from "react";
 import { SiTypescript } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { createAvatar } from '@dicebear/core';
+import { lorelei } from '@dicebear/collection';
+
+const avatar = createAvatar(lorelei, {
+    seed: "Bailey",
+    size: 88,
+    radius: 50,
+    backgroundColor: ["292b2c"],
+});
+
+export const svg = avatar.toDataUriSync();
+
 
 interface ProjectProps {
     name: string,

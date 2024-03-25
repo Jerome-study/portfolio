@@ -1,5 +1,6 @@
 import { TechStackIcons } from "./TeckStack"
 import { GrLinkedin } from "react-icons/gr";
+import { svg } from "../utils/utils";
 
 export const HomeComponent = () => {
     return(
@@ -11,13 +12,15 @@ export const HomeComponent = () => {
                             <div>
                                 <h1 className='text-lg-start text-center display-2'>Hello, I'am Jerome</h1>
                                 <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer!</p>
-                                <a href="https://www.linkedin.com/in/jerome-dimaculangan-2a139b2a0">
-                                    <GrLinkedin className="bg-light" color='#0077B5' size={"1.7rem"} />
-                                </a>
+                                <div className="text-center text-lg-start mb-md-3">
+                                    <a href="https://www.linkedin.com/in/jerome-dimaculangan-2a139b2a0">
+                                        <GrLinkedin className="bg-light" color='#0077B5' size={"1.7rem"} />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6 max-w-100 text-center my-4 my-md-0">
-                            <img loading="lazy" src='spiderman.png' className='img-fluid' style={{maxWidth: "20rem"}}  />
+                            <img loading="lazy" src={svg} className='w-100' style={{ maxWidth: "20rem"}}  />
                         </div>
                     </div> 
                     <div className="mt-3">
