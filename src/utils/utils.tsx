@@ -34,12 +34,13 @@ export const iconsHome = [
     <FaHtml5 color='orange' size={"1.7rem"} />,
     <IoLogoCss3 color='blue' size={"1.7rem"} />,
     <IoLogoJavascript color='yellow' size={"1.7rem"} style={{backgroundColor:"black"}}/>,
-    <FaReact color='lightblue' size={"1.4rem"} className='loaderIcon ms-1' />,
+    <FaReact color='lightblue' size={"1.7rem"} className='loaderIcon' />,
     <FaNode color='green'size={"1.7rem"}/>,
     <SiMongodb color='green' size={"1.7rem"}/>,
     <FaBootstrap color='blue' size={"1.7rem"}/>,
     <FaGitSquare color='orange' size={"1.7rem"}/>,
-    <FaGithub color='black' size={"1.7rem"}/>
+    <FaGithub color='black' size={"1.7rem"}/>,
+    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>
 ];
 
 export const projects: ProjectProps[] = [

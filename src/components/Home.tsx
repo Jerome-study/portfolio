@@ -1,4 +1,5 @@
 import { TechStackIcons } from "./TeckStack"
+import { GrLinkedin } from "react-icons/gr";
 
 export const HomeComponent = () => {
     return(
@@ -9,7 +10,10 @@ export const HomeComponent = () => {
                         <div className="col-12 col-lg-6">
                             <div>
                                 <h1 className='text-lg-start text-center display-2'>Hello, I'am Jerome</h1>
-                                <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer</p>
+                                <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer!</p>
+                                <a href="https://www.linkedin.com/in/jerome-dimaculangan-2a139b2a0">
+                                    <GrLinkedin className="bg-light" color='#0077B5' size={"1.7rem"} />
+                                </a>
                             </div>
                         </div>
                         <div className="col-12 col-lg-6 max-w-100 text-center my-4 my-md-0">

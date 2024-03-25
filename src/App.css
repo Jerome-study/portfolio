@@ -7,7 +7,6 @@
 
 
 .loaderIcon {
-    margin-right: 7px;
     top: 2px;
     animation: spin  1s infinite linear;
 }
@@ -59,7 +58,12 @@ body {
 }
 
 
-
+.about-me-details {
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: .1rem;
+    font-size: 1.1rem;
+}
 
 
 
