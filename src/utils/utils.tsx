@@ -56,13 +56,7 @@ export const iconsHome = [
 ];
 
 export const projects: ProjectProps[] = [
-    {
-        name: "Product Preview Card Component",
-        link: "https://jerome-study.github.io/Product-preview-card-component/",
-        description: "A challenge from front-end mentor",
-        img: "/product-preview.jpg",
-        tools: [icons[0], icons[1]]
-    },
+    
     {
         name:"News homepage",
         link: "https://jerome-study.github.io/News-homepage/",
@@ -83,6 +77,13 @@ export const projects: ProjectProps[] = [
         description: "A challenge from front-end mentor",
         img: "/blogr.png",
         tools: [icons[0], icons[1], icons[2]]
+    },
+    {
+        name: "URL shortening landing page",
+        link: "https://url-shortener-landing-page.onrender.com",
+        description: "A challenge from front-end mentor",
+        img: "/url-shorter.png",
+        tools: [icons[1], icons[3], icons[6]]
     },
     {
         name: "REST Countries API with color theme switcher",
