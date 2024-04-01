@@ -98,6 +98,12 @@ export const projects: ProjectProps[] = [
         description: "My full MERN stack website",
         img: "/movie.png",
         tools: [icons[3], icons[4], icons[5], icons[6], icons[7]]
+    },
+    {
+        name: "Weather App",
+        link: "#",
+        description: "Simple API calls about weather",
+        img: "/weather.png",
+        tools: [icons[1], icons[3], icons[6]]
     }
-    
 ]
