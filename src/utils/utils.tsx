@@ -101,7 +101,7 @@ export const projects: ProjectProps[] = [
     },
     {
         name: "Weather App",
-        link: "#",
+        link: "https://weather-app-mfos.onrender.com",
         description: "Simple API calls about weather",
         img: "/weather.png",
         tools: [icons[1], icons[3], icons[6]]
