@@ -13,7 +13,7 @@ export const HomeComponent = () => {
                                 <h1 className='text-lg-start text-center display-2'>Hello, I'am Jerome</h1>
                                 <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer!</p>
                                 <div className="text-center text-lg-start mb-md-3">
-                                    <a href="https://www.linkedin.com/in/jerome-dimaculangan-2a139b2a0">
+                                    <a href="https://www.linkedin.com/in/jerome-dimaculangan-844100302">
                                         <GrLinkedin className="bg-light" color='#0077B5' size={"1.7rem"} />
                                     </a>
                                 </div>
