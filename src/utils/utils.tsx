@@ -11,6 +11,7 @@ import { FaGitSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { createAvatar } from '@dicebear/core';
 import { lorelei } from '@dicebear/collection';
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const avatar = createAvatar(lorelei, {
     seed: "Bailey",
@@ -52,7 +53,8 @@ export const iconsHome = [
     <FaBootstrap color='blue' size={"1.7rem"}/>,
     <FaGitSquare color='orange' size={"1.7rem"}/>,
     <FaGithub color='black' size={"1.7rem"}/>,
-    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>
+    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
+    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />
 ];
 
 export const projects: ProjectProps[] = [

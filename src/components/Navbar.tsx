@@ -8,7 +8,7 @@ export const NavigationBar = () => {
         <>
            <Navbar expand="sm" collapseOnSelect className="bg-white shadow-sm"  >
                 <Container >
-                    <Navbar.Brand className="fw-bold">MyPortfolio</Navbar.Brand>
+                    <Navbar.Brand href="/" className="fw-bold" style={{ cursor: "pointer"}}>MyPortfolio</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto" activeKey={location.pathname}>
