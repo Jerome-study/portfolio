@@ -40,7 +40,8 @@ const icons = [
     <FaNode className="bg-light" color='green' size={"1.9rem"} />,
     <SiMongodb className="bg-light" color='green' size={"1.7rem"} />,
     <FaBootstrap className="bg-light" color='blue' size={"1.7rem"} />,
-    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>
+    <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
+    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />
 ];
 
 export const iconsHome = [
@@ -61,51 +62,58 @@ export const projects: ProjectProps[] = [
     
     {
         name:"News homepage",
-        link: "https://jerome-study.github.io/News-homepage/",
+        link: "https://github.com/Jerome-study/News-homepage",
         description: "A challenge from front-end mentor",
         img: "/news-home.jpg",
         tools: [icons[0], icons[1], icons[2]],
     },
     {
         name: "Newsletter sign-up form with success message",
-        link: "https://jerome-study.github.io/News-Letter-Sign-up-with-Success-Message/",
+        link: "https://github.com/Jerome-study/News-Letter-Sign-up-with-Success-Message",
         description: "A challenge from front-end mentor",
         img: "/news-letter.jpg",
         tools: [icons[0], icons[1], icons[2]]
     },
     {
         name: "Blogr landing page",
-        link: "https://jerome-study.github.io/Blogr-landing-page/",
+        link: "https://github.com/Jerome-study/Blogr-landing-page",
         description: "A challenge from front-end mentor",
         img: "/blogr.png",
         tools: [icons[0], icons[1], icons[2]]
     },
     {
         name: "URL shortening landing page",
-        link: "https://url-shortener-landing-page.onrender.com",
+        link: "https://github.com/Jerome-study/url-shortener-landing-page",
         description: "A challenge from front-end mentor",
         img: "/url-shorter.png",
         tools: [icons[1], icons[3], icons[6]]
     },
     {
-        name: "REST Countries API with color theme switcher",
-        link: "https://rest-countries-api-with-color-theme-kw5b.onrender.com/",
-        description: "A challenge from front-end mentor",
-        img: "/country.jpg",
+        name: "Weather App",
+        link: "https://github.com/Jerome-study/weather-app",
+        description: "Simple API calls about weather",
+        img: "/weather.png",
         tools: [icons[1], icons[3], icons[6]]
     },
     {
         name: "Movie App",
-        link: "https://movie-app-v2.onrender.com/",
+        link: "https://github.com/Jerome-study/movie-app-v2",
         description: "My full MERN stack website",
         img: "/movie.png",
         tools: [icons[3], icons[4], icons[5], icons[6], icons[7]]
     },
     {
-        name: "Weather App",
-        link: "https://weather-app-mfos.onrender.com",
-        description: "Simple API calls about weather",
-        img: "/weather.png",
+        name: "REST Countries API with color theme switcher",
+        link: "https://github.com/Jerome-study/rest-countries-api-with-color-theme-switcher-",
+        description: "A challenge from front-end mentor",
+        img: "/country.jpg",
         tools: [icons[1], icons[3], icons[6]]
+    },
+    {
+        name: "Todo App",
+        link: "https://github.com/Jerome-study/todo-app-postgres",
+        description: "A todo app using postresql",
+        img: "/todo.png",
+        tools: [icons[3], icons[4], icons[8], icons[6], icons[7]]
     }
 ]

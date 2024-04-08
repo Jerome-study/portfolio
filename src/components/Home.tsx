@@ -1,5 +1,6 @@
 import { TechStackIcons } from "./TeckStack"
 import { GrLinkedin } from "react-icons/gr";
+import { FaGithub } from "react-icons/fa";
 import { svg } from "../utils/utils";
 
 export const HomeComponent = () => {
@@ -12,9 +13,12 @@ export const HomeComponent = () => {
                             <div>
                                 <h1 className='text-lg-start text-center display-2'>Hello, I'am Jerome</h1>
                                 <p className='text-lg-start text-center'>I want to become a front-end developer and soon to be a full-stack developer!</p>
-                                <div className="text-center text-lg-start mb-md-3">
+                                <div className="d-flex gap-3 justify-content-center justify-content-lg-start  mb-md-3">
                                     <a href="https://www.linkedin.com/in/jerome-dimaculangan-844100302">
                                         <GrLinkedin className="bg-light" color='#0077B5' size={"1.7rem"} />
+                                    </a>
+                                    <a href="https://github.com/Jerome-study">
+                                        <FaGithub color="black" size={"1.7rem"}/>
                                     </a>
                                 </div>
                             </div>
