@@ -14,7 +14,7 @@ export const NavigationBar = () => {
                     <Nav className="ms-auto" activeKey={location.pathname}>
                         <Nav.Link to={"/"} as={Link} eventKey="1">Home</Nav.Link>
                         <Nav.Link to={"/projects"} as={Link} eventKey="2"  >Projects</Nav.Link>
-                        <Nav.Link to={"/about"}  as={Link}  eventKey= "3"  >About Me</Nav.Link>
+                        {/* <Nav.Link to={"/about"}  as={Link}  eventKey= "3"  >About Me</Nav.Link> */}
                     </Nav>
                     </Navbar.Collapse>
                 </Container>

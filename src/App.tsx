@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom"
 import { HomePage } from "./pages/Home";
 import { ProjectPage } from "./pages/Project";
-import { AboutPage } from "./pages/About";
+// import { AboutPage } from "./pages/About";
 import { Layout } from "./Layout";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavigationBar } from "./components/Navbar";
@@ -14,9 +14,10 @@ function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
-          <Route path="/about" element={<AboutPage />} />
+          {/* <Route path="/about" element={<AboutPage />} /> */}
         </Route>
         <Route path="/projects" element={<ProjectPage />} />
+        <Route path="*" element={<h1>Not found</h1>}/>
       </Routes>
     </>
   )

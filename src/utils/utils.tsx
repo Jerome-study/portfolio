@@ -10,11 +10,13 @@ import { SiTypescript } from "react-icons/si";
 import { FaGitSquare } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { createAvatar } from '@dicebear/core';
-import { lorelei } from '@dicebear/collection';
+import { thumbs  } from '@dicebear/collection';
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
-const avatar = createAvatar(lorelei, {
-    seed: "Bailey",
+const avatar = createAvatar(thumbs , {
+    seed: "Bandit",
     size: 88,
     radius: 50,
     backgroundColor: ["292b2c"],
@@ -41,7 +43,9 @@ const icons = [
     <SiMongodb className="bg-light" color='green' size={"1.7rem"} />,
     <FaBootstrap className="bg-light" color='blue' size={"1.7rem"} />,
     <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
-    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />
+    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />,
+    <SiTailwindcss className="bg-light" color='#008bb9' size={"1.7rem"}/>,
+    <TbBrandNextjs className="bg-light" color='black' size={"1.7rem"} />
 ];
 
 export const iconsHome = [
@@ -55,7 +59,9 @@ export const iconsHome = [
     <FaGitSquare color='orange' size={"1.7rem"}/>,
     <FaGithub color='black' size={"1.7rem"}/>,
     <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
-    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />
+    <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />,
+    <SiTailwindcss className="bg-light" color='#008bb9' size={"1.7rem"}/>,
+    <TbBrandNextjs className="bg-light" color='' size={"1.7rem"} />
 ];
 
 export const projects: ProjectProps[] = [
@@ -114,6 +120,13 @@ export const projects: ProjectProps[] = [
         link: "https://github.com/Jerome-study/todo-app-postgres",
         description: "A todo app using postresql",
         img: "/todo.png",
-        tools: [icons[3], icons[4], icons[8], icons[6], icons[7]]
+        tools: [icons[3], icons[4], icons[8], icons[9], icons[7]]
+    },
+    {
+        name: "Blog App",
+        link: "https://github.com/Jerome-study/blog-app.git",
+        description: "A todo app using postresql",
+        img: "/blog.png",
+        tools: [icons[3], icons[8], icons[9], icons[7], icons[10]]
     }
 ]
