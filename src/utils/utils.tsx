@@ -13,7 +13,7 @@ import { createAvatar } from '@dicebear/core';
 import { thumbs  } from '@dicebear/collection';
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiTailwindcss } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
+// import { TbBrandNextjs } from "react-icons/tb";
 
 const avatar = createAvatar(thumbs , {
     seed: "Bandit",
@@ -45,7 +45,7 @@ const icons = [
     <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
     <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />,
     <SiTailwindcss className="bg-light" color='#008bb9' size={"1.7rem"}/>,
-    <TbBrandNextjs className="bg-light" color='black' size={"1.7rem"} />
+    // <TbBrandNextjs className="bg-light" color='black' size={"1.7rem"} />
 ];
 
 export const iconsHome = [
@@ -61,7 +61,7 @@ export const iconsHome = [
     <SiTypescript className="bg-light" color='blue' size={"1.7rem"}/>,
     <BiLogoPostgresql className="bg-light" color='#008bb9' size={"1.7rem"} />,
     <SiTailwindcss className="bg-light" color='#008bb9' size={"1.7rem"}/>,
-    <TbBrandNextjs className="bg-light" color='' size={"1.7rem"} />
+    // <TbBrandNextjs className="bg-light" color='' size={"1.7rem"} />
 ];
 
 export const projects: ProjectProps[] = [
