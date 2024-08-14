@@ -2,27 +2,30 @@ import { projects } from "../utils/utils"
 import { IconComponent } from "./Icons"
 
 export const ProjectComponent = () => {
-    return(
-        <div className="overflow-hidden">  
+    return (
+        <div className="overflow-hidden">
             <h1 className="text-center mb-5 ">My Projects</h1>
-            <div className="row">
-                {projects.map((project: any, index: number) => {
-                    return(
-                        <a href={project.link} className="col-12 col-sm-6 col-xl-4 g-0 rounded-0" key={index} style={{ cursor: "pointer"}}>
-                            <div className="card img-filter h-100 rounded-0 position-relative overflow-hidden">
-                                <img className="w-100 h-100 rounded-0 bg-dark" loading="lazy" src={project.img} alt="" />
-                                <div className="details">
-                                    <div className="details-content text-light d-none d-lg-flex flex-column justify-content-between align-items-center py-4">
-                                            <h4 className="text-center">{project.name}</h4>
-                                            <div>
-                                                <IconComponent icons={project.tools}/>
-                                            </div>
+            <div className="container">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                    {projects.map((project: any, index: number) => {
+                        return (
+                            <div className="col" key={index}>
+                                <div className="card">
+                                    <img src={project.img} className="card-img-top" alt="..." style={{ height: "200px", objectFit: "cover" }} />
+                                    <div className="card-body">
+                                        <h5 className="card-title">{project.name}</h5>
+                                        <p className="card-text">{project.description}</p>
+                                        <div className="mb-3">
+                                            <IconComponent icons={project.tools} />
+                                        </div>
+                                        <a href={project.link} className="btn btn-dark">Github</a>
+                                        <a href={project.live} className="btn btn-danger ms-2">Live</a>
                                     </div>
                                 </div>
                             </div>
-                        </a>
-                    )
-                })}
+                        )
+                    })}
+                </div>
             </div>
         </div>
     )
